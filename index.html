@@ -13,15 +13,26 @@
         <button class="btn btn-outline-dark" data-action="menu" data-content="pagina01">
             Página 01
         </button>
+
         <button class="btn btn-outline-dark" data-action="menu" data-content="categories">
             Categorias
         </button>
-        <button class="btn btn-outline-dark" data-action="menu" data-content="branches" >
-            Filiais
-        </button>
-        <button class="btn btn-outline-dark" data-action="menu" data-content="addBranch" >
+
+        <div class="dropdown d-inline">
+            <button data-bs-toggle="dropdown" class="dropdown-toggle btn btn-outline-dark" >
+                Filiais
+            </button>
+            <ul class="dropdown-menu">
+                <li data-action="menu" data-content="addBranch" class="dropdown-item">Nova</li>
+                <li data-action="menu" data-content="branches" class="dropdown-item">Listar</li>
+            </ul>
+
+        </div>
+
+        <!-- <button class="btn btn-outline-dark" data-action="menu" data-content="addBranch" >
            Adicionar filial
-        </button>
+        </button> -->
+
         <button class="btn btn-outline-danger" data-action="menu" data-content="login">
             Sair
         </button>
