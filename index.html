@@ -13,9 +13,26 @@
         <button class="btn btn-outline-dark" data-action="menu" data-content="pagina01">
             Página 01
         </button>
+
         <button class="btn btn-outline-dark" data-action="menu" data-content="categories">
             Categorias
         </button>
+
+        <div class="dropdown d-inline">
+            <button data-bs-toggle="dropdown" class="dropdown-toggle btn btn-outline-dark" >
+                Filiais
+            </button>
+            <ul class="dropdown-menu">
+                <li data-action="menu" data-content="addBranch" class="dropdown-item">Nova</li>
+                <li data-action="menu" data-content="branches" class="dropdown-item">Listar</li>
+            </ul>
+
+        </div>
+
+        <!-- <button class="btn btn-outline-dark" data-action="menu" data-content="addBranch" >
+           Adicionar filial
+        </button> -->
+
         <button class="btn btn-outline-danger" data-action="menu" data-content="login">
             Sair
         </button>
@@ -29,6 +46,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <script src="js/pages/pagina01.js"></script>
 <script src="js/pages/categories.js"></script>
+<script src="js/pages/addBranch.js"></script>
+<script src="js/pages/branches.js"></script>
 <script src="js/pages/login.js"></script>
 <script src="js/main.js"></script>
 </body>
