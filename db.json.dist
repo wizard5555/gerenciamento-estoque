@@ -1,0 +1,45 @@
+{
+    "filiais": [
+        {
+            "id": 1,
+            "nome": "Ale importados"
+        },
+        {
+            "id": 2,
+            "nome": "Ale variedades"
+        }
+    ],
+
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Informática",
+            "descricao": "Produtos de informática",
+            "foto": "https://lojaibyte.vteximg.com.br/arquivos/ids/395867-320-320/2ad01d88e8733e0abef162330e147819.jpg?v=637949730781000000"
+        },
+        {
+            "id": 2,
+            "nome": "Equipamentos de som",
+            "descricao": "Equipamentos de som em geral",
+            "foto": "https://lojaibyte.vteximg.com.br/arquivos/ids/217159-320-320/43693--8--1-1200x1200px.jpg?v=637550390715070000"
+        },
+        {
+            "id": 3,
+            "nome": "Acessórios",
+            "descricao": "Acessórios em geral",
+            "foto": "https://lojaibyte.vteximg.com.br/arquivos/ids/386524/Banner%20Cats%20GT%206%20-%20Acess%C3%B3rios%20GT.png?v=637859935688330000"
+        },
+        {
+            "id": 4,
+            "nome": "Notebooks",
+            "descricao": "Notebooks em geral",
+            "foto": "https://lojaibyte.vteximg.com.br/arquivos/ids/392353/Banner%20Cats%20GT%202%20-%20Notebooks%20GT.png?v=637908107290000000"
+        },
+        {
+            "id": 5,
+            "nome": "PC Gamer",
+            "descricao": "PCs gamers em geral",
+            "foto": "https://lojaibyte.vteximg.com.br/arquivos/ids/386509/Banner%20Cats%20Gt%201%20-%20PC%20Gamer.png?v=637859915249630000"
+        }
+    ]
+}
