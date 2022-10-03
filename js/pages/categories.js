@@ -1,10 +1,10 @@
-function removeCategory (id) {
-    fetch ('http://localhost:8000/categorias/'+id, {
-        method: 'DELETE',
-    });
-}
+// function removeCategory (id) {
+//     fetch ('http://localhost:8000/categorias/'+id, {
+//         method: 'DELETE',
+//     });
+// }
 
-function categories() {
+export default function categories() {
     fetch('http://localhost:8000/categorias')
         .then(response => response.json())
         .then(dados => {
