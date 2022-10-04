@@ -1,8 +1,9 @@
-async function removeCategory (id) {
-    if (false === confirm('Tem certeza?')) {
-        return;
-    }
-    await fetch ('http://localhost:8000/categorias/'+id, {
+function abrirModal(id) {
+    input_excluir.value = id;
+}
+
+async function removeCategory () {
+    await fetch ('http://localhost:8000/categorias/'+input_excluir.value, {
         method: 'DELETE',
     });
 

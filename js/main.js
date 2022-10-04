@@ -4,6 +4,7 @@ import addbranches from "./pages/addBranch.js";
 import categories from "./pages/categories.js";
 import pagina01 from "./pages/pagina01.js";
 import addBranch from "./pages/addBranch.js";
+import addCategory from "./pages/addCategory.js"
 // import util from "./js/util.js"
 
 let pages = {
@@ -11,7 +12,8 @@ let pages = {
     'login': login,
     'categories': categories,
     'pagina01': pagina01,
-    'branches': branches
+    'branches': branches,
+    'addCategory': addCategory
 };
 
 document.querySelectorAll('[data-action="menu"]').forEach( (item) => {
