@@ -11,3 +11,25 @@ async function removeCategory () {
             new Event('click')
         )
 }
+
+async function salvarCategoria() {
+    event.preventDefault
+    let dados = {
+        nome: add_cat_nome.value,
+        descricao: add_cat_desc.value,
+        foto: '',
+    };
+
+   await fetch('http://localhost:8000/categorias', {
+        method: 'POST',
+        body: JSON.stringify(dados),
+        headers: {
+            'Content-type': 'application/json'
+        }
+   });
+
+   document.querySelector('[data-content="categories"]').dispatchEvent (
+        new Event('click')
+   )
+
+}
